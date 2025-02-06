@@ -1,0 +1,38 @@
+primeiro isso
+iniciar c0
+missao arrrumarcenario
+finalizar arrumarcenario
+progresso historiaglobal+3
+missao diario
+finalizar diario
+progresso historiaglobal+3
+finalizar c0
+
+depois isso
+
+iniciar c1
+atender clientes
+aceitar missaoR1
+aceitar missaoG1
+finalizar atender clientes
+historiaglobal+1
+reputacaoclientes+1
+finalizar c1
+
+depois isso
+
+iniciar c2
+atender clientes
+finalizar missaoR
+recompensa
+historiaglobal+3
+aceitar missaoR2
+cliente1 inspetor 1/1
+historiavilao+1
+finalizar missaoG1
+historiadono+5
+recompensa
+finalizar atender clientes
+historiaglobal+2
+reputacaoclientes+1
+finalizar c2

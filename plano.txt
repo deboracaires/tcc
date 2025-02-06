@@ -1,0 +1,36 @@
+Madagascar 0.99999 25/02/2015 09:45:59 amd64 1-core (no VSIDS)
+Options: file:pddls/mestre/dominio_mestre.pddl file:pddls/mestre/problema_mestre.pddl
+Domain: jogo-custo
+Problem: jogo-problema
+Parser: 17 ground actions and 19 state variables
+Invariants: 0 1  0.00 secs
+Goal: conjunctive
+Simplified: 17 ground actions and 17 state variables
+Actions: general
+Disabling graph %: 10 20 30 40 50 60 70 80 90 100 0.00 secs (max SCC size 4)
+Plan type: E-step
+				Allocated 32 MB permanent (total 121 MB)
+Horizon 5: 187 variables
+5 UNSAT (0 decisions 0 conflicts)
+Horizon 7: 255 variables
+7 UNSAT (0 decisions 0 conflicts)
+Horizon 10: 357 variables
+SAT (15 decisions 0 conflicts)
+PLAN FOUND: 10 steps
+STEP 0: iniciar-c0()
+STEP 1: arrumar-cenario() pegar-diario()
+STEP 2: finalizar-c0-good()
+STEP 3: iniciar-c1()
+STEP 4: acao-c1-opcao1-low() acao-c1-opcao2-low()
+STEP 5: finalizar-c1()
+STEP 6: iniciar-c2()
+STEP 7: acao-c2-opcao2-low()
+STEP 8: finalizar-c2()
+11 actions in the plan.
+total time 0.00 preprocess 0.00 
+total size 431.000 MB
+max. learned clause length 0
+t val conflicts decisions
+5 0 0 0
+7 0 0 0
+10 1 0 15

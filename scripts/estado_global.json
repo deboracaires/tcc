@@ -1,0 +1,21 @@
+{
+    "cenarios": {
+      "cenario1": false,
+      "cenario2": false
+    },
+    "missoes": {
+      "missao1": false,
+      "missao2": false
+    },
+    "eventos": {
+      "evento1": false
+    },
+    "npcs": {
+      "npc1": {
+        "em_cena": false,
+        "em_interacao": false,
+        "missao_entregue": false
+      }
+    }
+  }
+  
